@@ -47,7 +47,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <link href="./wp-content/uploads/elementor/css/post-6.css" id="elementor-post-6-css" media="all" rel="stylesheet"/>
 <link href="./wp-content/uploads/elementor/css/post-12.css" id="elementor-post-12-css" media="all" rel="stylesheet"/>
 <link href="./wp-content/uploads/elementor/css/post-18.css" id="elementor-post-18-css" media="all" rel="stylesheet"/>
-<link href="./wp-content/themes/generatepress/assets/css/components/comments.min.css" id="generate-comments-css" media="all" rel="stylesheet"/>
+
 <link href="./wp-content/themes/generatepress/assets/css/components/widget-areas.min.css" id="generate-widget-areas-css" media="all" rel="stylesheet"/>
 <link href="./wp-content/themes/generatepress/assets/css/main.min.css" id="generate-style-css" media="all" rel="stylesheet"/>
 <style id="generate-style-inline-css">
@@ -194,7 +194,7 @@ li {
     display: list-item !important;
 }
 /* Force proper heading styling */
-h1, h2, h3, h4, h5, h6 {
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
     display: block !important;
     font-weight: 700 !important;
     line-height: 1.3 !important;
@@ -204,10 +204,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Define proper sizes */
-h1 { font-size: 34px !important; }
-h2 { font-size: 28px !important; }
-h3 { font-size: 22px !important; }
-h4 { font-size: 18px !important; }
+.entry-content h1 { font-size: 34px !important; }
+.entry-content h2 { font-size: 28px !important; }
+.entry-content h3 { font-size: 22px !important; }
+.entry-content h4 { font-size: 18px !important; }
 
 p {
     font-size: 16px;
@@ -323,18 +323,7 @@ p {
 </footer>
 </div>
 </article>
-<div class="comments-area">
-<div id="comments">
-<div class="comment-respond" id="respond">
-<h3 class="comment-reply-title" id="reply-title">Leave a Comment <small><a href="/how-exomind-tms-supports-long-term-brain-health/#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Cancel reply</a></small></h3><form action="http://localhost/wp-comments-post.php" class="comment-form" id="commentform" method="post"><p class="comment-form-comment"><label class="screen-reader-text" for="comment">Comment</label><textarea cols="45" id="comment" name="comment" required="" rows="8"></textarea></p><label class="screen-reader-text" for="author">Name</label><input id="author" name="author" placeholder="Name *" required="" size="30" type="text" value=""/>
-<label class="screen-reader-text" for="email">Email</label><input id="email" name="email" placeholder="Email *" required="" size="30" type="email" value=""/>
-<label class="screen-reader-text" for="url">Website</label><input id="url" name="url" placeholder="Website" size="30" type="url" value=""/>
-<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"/> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
-<p class="form-submit"><input class="submit" id="submit" name="submit" type="submit" value="Post Comment"/> <input id="comment_post_ID" name="comment_post_ID" type="hidden" value="481"/>
-<input id="comment_parent" name="comment_parent" type="hidden" value="0"/>
-</p></form> </div><!-- #respond -->
-</div><!-- #comments -->
-</div>
+
 </main>
 </div>
 <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
@@ -344,46 +333,21 @@ p {
 <h2 class="gb-text gb-text-f5f69833">Clarify Your Mind.<br/>Elevate Your Life.</h2>
 <p class="wp-block-paragraph">Experience a refreshing approach to <strong>mental and emotional health</strong>. Advanced, drug-free technology designed to support <strong>mental wellbeing</strong> and revitalize your <strong>intellectual health</strong> in a calming environment.</p>
 </div>
-<div class="gb-element-51fcbaea container-widget">
-<h2 class="gb-text gb-text-6bcb070c">Recent Posts</h2>
-<div><div class="gb-looper-054422a1">
-<div class="gb-loop-item gb-loop-item-228470c2 post-495 post type-post status-publish format-standard has-post-thumbnail hentry category-tms">
-<div class="gb-element-238608d4">
-<img alt="How much does Exomind Treatment cost​" class="gb-media-1a35c3cc" data-media-id="497" decoding="async" height="150" src="./wp-content/uploads/2026/08/A-patient-receiving-an-Exomind-treatment-at-Dr-Preema-London-Clinic-Mayfair-150x150.webp" width="150"/>
-<p class="gb-text"><a href="how-much-does-exomind-treatment-cost.php">How Much Does Exomind Treatment Cost?</a></p>
+<div class="gb-element-51fcbaea container-widget" style="background: linear-gradient(135deg, #1D0F20 0%, #2e1833 100%) !important; color: #ffffff !important; padding: 40px 30px !important; border-radius: 12px !important; box-shadow: 0 10px 25px rgba(29, 15, 32, 0.12) !important;">
+<span style="display: inline-block !important; font-size: 12px !important; font-weight: 700 !important; text-transform: uppercase !important; letter-spacing: 1px !important; color: #c4b5fd !important; margin-bottom: 12px !important;">Take the Next Step</span>
+<h2 style="color: #ffffff !important; font-size: 22px !important; font-weight: 700 !important; line-height: 1.35 !important; margin-top: 0 !important; margin-bottom: 14px !important;">Ready to Elevate Your Brain Wellness?</h2>
+<p style="color: #cbd5e1 !important; font-size: 14px !important; line-height: 1.6 !important; margin-bottom: 24px !important;">Discover how non-invasive Exomind TMS therapy can help optimize mental clarity, focus, and resilience.</p>
+<div style="display: flex !important; flex-direction: column !important; gap: 12px !important; margin-bottom: 24px !important;">
+<a href="tel:760-343-5859" style="display: flex !important; align-items: center !important; gap: 12px !important; color: #ffffff !important; text-decoration: none !important; font-size: 14px !important; font-weight: 600 !important; padding: 12px 16px !important; background: rgba(255, 255, 255, 0.1) !important; border-radius: 8px !important; border: 1px solid rgba(255, 255, 255, 0.15) !important;">
+<svg style="width: 18px !important; height: 18px !important; fill: none !important; stroke: #c4b5fd !important;" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+<span style="color: #ffffff !important;">(760) 343-5859</span>
+</a>
+<div style="display: flex !important; align-items: center !important; gap: 12px !important; color: #cbd5e1 !important; font-size: 13px !important; padding: 6px 4px !important;">
+<svg style="width: 18px !important; height: 18px !important; fill: none !important; stroke: #c4b5fd !important; flex-shrink: 0 !important;" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+<span style="color: #cbd5e1 !important;">Rancho Mirage, CA</span>
 </div>
 </div>
-<div class="gb-loop-item gb-loop-item-228470c2 post-481 post type-post status-publish format-standard has-post-thumbnail hentry category-tms tag-how-exomind-tms-supports-long-term-brain-health">
-<div class="gb-element-238608d4">
-<img alt="Exomind TMS" class="gb-media-1a35c3cc" data-media-id="488" decoding="async" height="150" src="./wp-content/uploads/2026/07/ChatGPT-Image-Jul-24-2026-02_07_08-PM-150x150.png" width="150"/>
-<p class="gb-text"><a href="how-exomind-tms-supports-long-term-brain-health.php">How Exomind TMS Supports Long-Term Brain Health</a></p>
-</div>
-</div>
-<div class="gb-loop-item gb-loop-item-228470c2 post-447 post type-post status-publish format-standard has-post-thumbnail hentry category-tms">
-<div class="gb-element-238608d4">
-<img alt="tms for anxiety" class="gb-media-1a35c3cc" data-media-id="330" decoding="async" height="150" src="./wp-content/uploads/2026/02/Gemini_Generated_Image_wecpqrwecpqrwecp-Photoroom-150x150.png" width="150"/>
-<p class="gb-text"><a href="exomind-vs-traditional-tms.php">Exomind vs Traditional TMS: What’s the Difference?</a></p>
-</div>
-</div>
-<div class="gb-loop-item gb-loop-item-228470c2 post-449 post type-post status-publish format-standard has-post-thumbnail hentry category-tms">
-<div class="gb-element-238608d4">
-<img alt="how long is tms treatment" class="gb-media-1a35c3cc" data-media-id="403" decoding="async" height="150" loading="lazy" src="./wp-content/uploads/2026/04/49601506-b5d8-4c1e-a21b-65b86cf60184-150x150.jpg" width="150"/>
-<p class="gb-text"><a href="exomind-tms-a-drug-free-approach.php">Exomind TMS: A Drug-Free Approach to Mental Well-Being</a></p>
-</div>
-</div>
-<div class="gb-loop-item gb-loop-item-228470c2 post-451 post type-post status-publish format-standard has-post-thumbnail hentry category-tms">
-<div class="gb-element-238608d4">
-<img alt="" class="gb-media-1a35c3cc" data-media-id="441" decoding="async" height="150" loading="lazy" src="./wp-content/uploads/2026/05/exomind-150x150.png" width="150"/>
-<p class="gb-text"><a href="the-connection-between-brain-wellness-and-emotional-resilience.php">The Connection Between Brain Wellness and Emotional Resilience</a></p>
-</div>
-</div>
-<div class="gb-loop-item gb-loop-item-228470c2 post-453 post type-post status-publish format-standard has-post-thumbnail hentry category-tms">
-<div class="gb-element-238608d4">
-<img alt="is tms therapy covered by insurance" class="gb-media-1a35c3cc" data-media-id="372" decoding="async" height="150" loading="lazy" src="./wp-content/uploads/2026/03/Gemini_Generated_Image_w8vkqbw8vkqbw8vk-150x150.png" width="150"/>
-<p class="gb-text"><a href="brain-fog-and-mental-fatigue.php">Brain Fog and Mental Fatigue: Can Exomind Help?</a></p>
-</div>
-</div>
-</div></div>
+<a href="index.php#contact-form" style="display: block !important; text-align: center !important; background: #ffffff !important; color: #1D0F20 !important; font-weight: 700 !important; font-size: 15px !important; padding: 14px 20px !important; border-radius: 9999px !important; text-decoration: none !important; box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;">Book a Consultation</a>
 </div>
 </div>
 </div>

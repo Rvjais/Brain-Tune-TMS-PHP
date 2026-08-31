@@ -1637,12 +1637,12 @@
         }
 
         /* Force proper heading styling */
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
+        .entry-content h1,
+        .entry-content h2,
+        .entry-content h3,
+        .entry-content h4,
+        .entry-content h5,
+        .entry-content h6 {
             display: block !important;
             font-weight: 700 !important;
             line-height: 1.3 !important;
@@ -1652,19 +1652,19 @@
         }
 
         /* Define proper sizes */
-        h1 {
+        .entry-content h1 {
             font-size: 34px !important;
         }
 
-        h2 {
+        .entry-content h2 {
             font-size: 28px !important;
         }
 
-        h3 {
+        .entry-content h3 {
             font-size: 22px !important;
         }
 
-        h4 {
+        .entry-content h4 {
             font-size: 18px !important;
         }
 
